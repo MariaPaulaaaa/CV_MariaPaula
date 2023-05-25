@@ -8,7 +8,7 @@ header {
     display: flex;
 }
 
-div {
+.Titulo {
     font-size: 25px;
     font-weight: bold;
     background-color: rgba(176, 196, 222, 0.9);
@@ -17,9 +17,37 @@ div {
     margin-bottom: 0.02%;
 }
 
+.div-Indice {
+    margin-left: 35%;
+    margin-right: 35%;
+    background-color: rgb(104, 184, 135);
+    line-height: 30px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 25px;
+}
+
+.a-Indice {
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.section-SobreMi {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.section-InteresesPersonales {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
 h2 {
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
     font-size: 20px;
     background-color: rgb(176, 196, 222);
     line-height: 30px;
@@ -27,9 +55,16 @@ h2 {
     text-align: center; 
 }
 
+h3 {
+    font-size: 20px;
+    color: rgb(77, 77, 182);
+    text-align: center; 
+}
+
 main {
     text-align: center;
 }
+
 footer {
     font-size: 20px;
     color: black;
@@ -39,8 +74,4 @@ footer {
 
 .Logo {
     width: 2%;
-}
-
-p{
-    text-indent: 5em;
 }
