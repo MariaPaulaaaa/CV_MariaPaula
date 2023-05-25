@@ -62,6 +62,12 @@ header {
     background-color: rgb(176, 196, 222);
 }
 
+.ul-Certificados{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;   
+}
+
 .a-Certificados {
     color: black;
     text-align: center;
@@ -101,6 +107,8 @@ main {
 
 dd{
     text-align: center;
+    margin: 0;
+    padding: 0; 
 }
 
 footer {
@@ -112,4 +120,9 @@ footer {
 
 .Logo {
     width: 2%;
+}
+
+.MiniText{
+    margin: 0;
+    font-size: 15px;
 }
