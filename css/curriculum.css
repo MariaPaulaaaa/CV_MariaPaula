@@ -1,29 +1,42 @@
 header {
-    background-color: #B3B6B7 !important;
+    background-image: url('https://media.licdn.com/dms/image/D4E16AQHgYYtfQved4A/profile-displaybackgroundimage-shrink_350_1400/0/1669681245719?e=1690416000&v=beta&t=Ht0M2OwVqEqB6yjCxdcQeVHtScwZ_AT6KjeA_z3bOkE');
 }
 
-img {
-    width: 10%;
+.foto {
+    width: 15%;
     margin: auto;
-    display: block;
+    display: flex;
 }
 
-h1 {
+div {
     font-size: 25px;
-    background-color: #B3B6B7;
+    font-weight: bold;
+    background-color: rgba(176, 224, 230, 0.9);
     text-align: center; 
+    margin-top: 0.02%;
+    margin-bottom: 0.02%;
 }
 
 h2 {
+    margin-left: 20%;
+    margin-right: 20%;
     font-size: 20px;
     background-color: #B3B6B7;
     text-align: center; 
 }
 
+main {
+    text-align: center;
+}
 footer {
     font-size: 20px;
-    background-color: rgb(127, 146, 255);
+    color: black;
+    background-color: white;
     text-align: center;
+}
+
+.Logo {
+    width: 2%;
 }
 
 p{
