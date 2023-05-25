@@ -1,6 +1,6 @@
 <body>
     <head>
-        <meta charset="UTF-8" />
+        <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="css\curriculum.css">
     </head>
@@ -12,18 +12,23 @@
 
     <main>
         <section class="Indice"> 
-            <div class="div-Indice"><a class="a-Indice" href="#SobreMi"> SOBRE MÍ </a></div>
-            <div class="div-Indice"><a class="a-Indice" href="#DatosPersonales"> DATOS PERSONALES </a></div>
-            <div class="div-Indice"><a class="a-Indice" href="#FormacionAcademica"> FORMACIÓN ACADÉMICA </a></div>
-            <div class="div-Indice"><a class="a-Indice" href="#Habilidades"> HABILIDADES Y SOFTWARE  </a></div>
-            <div class="div-Indice"><a class="a-Indice" href="#Certificados"> CERTIFICADOS </a></div>
-            <div class="div-Indice"><a class="a-Indice" href="#ExpericenciaLaboral"> EXPERIENCIA LABORAL </a></div>
-            <div class="div-Indice"><a class="a-Indice" href="#InteresesPersonales"> INTERESES PERSONALES </a></div>
+            <div class="Dropdown">
+                <button class="dropbtn"> Índice de contenido </button>
+                <div class="DropContent">
+                <a class="a-Indice" href="#SobreMi"> SOBRE MÍ </a> 
+                <a class="a-Indice" href="#DatosPersonales"> DATOS PERSONALES </a>
+                <a class="a-Indice" href="#FormacionAcademica"> FORMACIÓN ACADÉMICA </a>
+                <a class="a-Indice" href="#Habilidades"> HABILIDADES Y SOFTWARE  </a>
+                <a class="a-Indice" href="#Certificados"> CERTIFICADOS </a>
+                <a class="a-Indice" href="#ExpericenciaLaboral"> EXPERIENCIA LABORAL </a>
+                <a class="a-Indice" href="#InteresesPersonales"> INTERESES PERSONALES </a>
+                </div>
+            </div>
         </section>
 
-        <section class="section-SobreMi">
+        <section>
             <h2 id="SobreMi"> SOBRE MÍ </h2>
-            <p> Soy una persona responsable, dinámica, alegre y apasionada por el aprendizaje y la innovación, con capacidad de
+            <p class="p-SobreMi"> Soy una persona responsable, dinámica, alegre y apasionada por el aprendizaje y la innovación, con capacidad de
                 desempeñarme eficientemente en la labor que se me asigne. Me gusta el trabajo en equipo y aportar ideas para lograr
                 soluciones efectivas. </p>
         </section>
@@ -40,7 +45,7 @@
             <h2 id="FormacionAcademica"> FORMACIÓN ACADÉMICA </h2>
             <dl>
                 <dt> <b> 2012 - 2018: </b> </dt>
-                <dd> Colegio Bilingue Real Americano - Bachiller académico </dd> <br>
+                <dd> Colegio Bilingue Real Americano - Bachiller académico </dd>
                 <dt> <b> 2019 - Actualidad: </b> </dt>
                 <dt> Universidad de la Salle - Ingeniería Química </dt>
             </dl>
@@ -48,12 +53,12 @@
 
         <section>
             <h2 id="Habilidades"> HABILIDADES Y SOFTWARE </h2>
-            <h3> HABILIDADES </h3>
+            <h4> HABILIDADES </h4>
             <div> Trabajo en equipo </div>
             <div> Resolución de problemas </div> 
             <div> Comunicación oral y escrita asertiva </div> 
             <div> Liderazgo </div> 
-            <h3> SOFTWARE </h3>
+            <h4> SOFTWARE </h4>
             <div> Aspen HYSYS </div>        
             <div> Aspen Plus </div> 
             <div> Microsoft Office </div> 
@@ -64,20 +69,26 @@
 
         <section>
             <h2 id="Certificados"> CERTIFICADOS </h2>
-            
+            <ul>
+                <a class="a-Certificados" href="https://www.credential.net/38574cf4-b8bf-4a4d-bafc-34cc52c8f3b9#gs.qv5m46"> Certificación en Aspen HYSYS </a> <br>
+                <a class="a-Certificados" href="https://drive.google.com/file/d/1OcGmWyv0HdTmwNblKvi0eisORgNkYfkh/view"> Participación en el III Congreso Internacional de Investigación e 
+                    Innovación Ambiental (Noviembre, 2022) </a> <br>
+                <a class="a-Certificados" href="https://www.udemy.com/certificate/UC-0627a829-f492-4758-a823-8ededef2d9e4/"> Curso de programación en Python </a> <br>
+                <a class="a-Certificados" href="https://www.udemy.com/certificate/UC-9bec6ad7-1d56-43de-8a2c-c0adbdc47d83/"> Curso en Aspen Plus </a> <br>
+            </ul>
         </section>
 
         <section>
             <h2 id="ExperienciaLaboral"> EXPERIENCIA LABORAL </h2>
             <dl>
                 <dt> <b> 2023 - Actualidad: </b> </dt>
-                <dd> Wood Engineering & Consultancy SAS - Trainee Engineer </dd> <br>
+                <dd> Wood Engineering & Consultancy SAS - Trainee Engineer </dd>
             </dl>
         </section>
 
-        <section class="section-InteresesPersonales">
+        <section>
             <h2 id="InteresesPersonales"> INTERESES PERSONALES </h2>
-            <p> Tengo inclinación por actividades deportivas y he participado en clubes de patinaje de velocidad (Club Royal Skate) y voleibol (Equipo
+            <p class="p-InteresesPersonales"> Tengo inclinación por actividades deportivas y he participado en clubes de patinaje de velocidad (Club Royal Skate) y voleibol (Equipo
                 Unisalle). Apasionada por la buena lectura y los animales. Me gusta la programación y aprender algo nuevo cada día. </p>
         </section>
     </main>
