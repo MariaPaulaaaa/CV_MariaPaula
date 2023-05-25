@@ -68,6 +68,11 @@ header {
     padding: 0;   
 }
 
+.ul-Idiomas{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;   
+}
 .a-Certificados {
     color: black;
     text-align: center;
@@ -118,8 +123,17 @@ footer {
     text-align: center;
 }
 
-.Logo {
+.MiniImg {
     width: 2%;
+}
+
+.MiniImg2 {
+    width: 1.5%;
+}
+
+.Skills{
+    text-align: justify;
+    margin-left: 40%;
 }
 
 .MiniText{
